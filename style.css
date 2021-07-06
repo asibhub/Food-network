@@ -27,7 +27,7 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
-    background-image: linear-gradient(tomato ,orange);
+    background-image: linear-gradient(to right, tomato ,orange);
     padding: 12px 20px;
     border-radius: 50px;
 }
@@ -61,4 +61,43 @@
 }
 .about-me h1{
     font-size: 40px;
+}
+.my-recepies{
+    height: 200px;
+    width: 100%;
+}
+.recepies{
+    height: 190px;
+    width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    color: #575757;
+}
+.more-recepies{
+    height: 600px;
+    width: 94%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.recepies-items{
+    height: 500px;
+    width: 30%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+    margin-right: 3%;
+}
+.items{
+    height: 250px;
+    width: 90%;
+    margin: 18px 18px;
+    border-radius: 30px;
+}
+.recepies-items h1{
+    margin: 18px 18px;  
+}
+.recepies-items p{
+    margin: 18px 18px;  
+    text-align: justify;
 }
