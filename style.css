@@ -10,14 +10,12 @@
 .healthy-food{
     width: 40%;
     height: 500px;
-    border: 1px solid black;
     margin-left: 7%;
     margin-top: 200px;
 }
 .female-food{
     width: 40%;
     height: 600px;
-    border: 1px solid black;
     margin-left: 7%;
     margin-top: 100px;
 }
@@ -36,4 +34,31 @@
 .female-food img{
     height: 100%;
     width: 100%;
+}
+.about-banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+.female-bg{
+    height: 100%;
+    width: 30%;
+    margin-left: 15%;
+}
+.female-bg img{
+    height: 450px;
+    width: 75%;
+    margin-top: 100px;
+}
+.about-me{
+    height: 100%;
+    width: 30%;
+    margin-left: 10%;
+    color: #575757;
+}
+.about-me h1{
+    font-size: 40px;
 }
